@@ -1,0 +1,9 @@
+app:
+  name: my-configmap-app
+  namespace: argocd
+  repoURL: https://nprabhu078.github.io/helm-repo  # GitHub repo with .tgz
+  chartName: my-configmap-chart
+  chartVersion: 0.1.1
+  destinationNamespace: default
+  destinationServer: https://kubernetes.default.svc
+
