@@ -3,7 +3,17 @@ entries:
   my-configmap-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-05-12T05:58:48.446808917Z"
+    created: "2025-05-12T07:02:48.920914148Z"
+    description: A Helm chart for Kubernetes
+    digest: 4b1915df35f03f3368a1d3ca192931d509c626fcd1ea11383591259c6a940d02
+    name: my-configmap-chart
+    type: application
+    urls:
+    - https://nprabhu078.github.io/helm-repo/my-configmap-chart-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-05-12T07:02:48.920541456Z"
     description: A Helm chart for Kubernetes
     digest: 0f771445f6e9283b3b4ef5b3165c8481ee07e8294ec3d0929af8a6e82c53c204
     name: my-configmap-chart
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://nprabhu078.github.io/helm-repo/my-configmap-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2025-05-12T05:58:48.446017435Z"
+generated: "2025-05-12T07:02:48.919891808Z"
